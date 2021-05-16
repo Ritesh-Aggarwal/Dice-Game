@@ -1,0 +1,30 @@
+*{
+    text-align: center;
+    background-color: #15aca4;
+}
+
+.top{
+    font-size: 5rem;
+    color: #2d665e;
+    font-style: italic;
+    text-shadow: 2px 2px rgb(243, 255, 136);
+}
+
+.main{
+    font-size: 3rem;
+    color: #88fdec;
+    display: inline-block;
+}
+
+.dice{
+    
+    margin: 2rem;
+    border: rgb(0, 0, 0);
+    border-width: 5px;
+    border-radius: 3px;
+}
+
+.img-style{
+    height: 12rem;
+    width: 12rem;
+}
