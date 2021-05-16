@@ -8,7 +8,7 @@ function dicethrow(){
 
 function changewinner(num){
     if(num == 3)
-        document.querySelector(".top").innerHTML = "It's a tie! Refresh again!"
+        document.querySelector(".top").innerHTML = "Draw!"
     else
     document.querySelector(".top").innerHTML = "Player " + num + " wins!!"
 }
