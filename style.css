@@ -11,14 +11,11 @@
     text-shadow: 2px 2px rgb(243, 255, 136);
 }
 
-.main{
-    font-size: 3rem;
-    color: #88fdec;
-}
-
 .dice{
     display: inline-block;
     margin: 1rem;
+    font-size: 3rem;
+    color: #88fdec;
     border: rgb(0, 0, 0);
     border-width: 5px;
     border-radius: 3px;
