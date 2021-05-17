@@ -9,7 +9,7 @@
     <title>Dice Game!</title>
 </head>
 <body>
-    <div class="top">Refresh me!</div>
+    <div class="top">Dice Game</div>
         <div class="dice">
             <div>Player 1</div>
             <img src="images/dice1.png" class="img-style" id="one">
@@ -18,6 +18,28 @@
             <div>Player 2</div>
             <img src="images/dice2.png" class="img-style" id="two">
         </div>
+        <div>
+            <button class="btn" id="rollDice">Roll Dice!</button>
+            <button class="btn" id="Reset">Reset</button>
+        </div>
+        <table> 
+            <tr>
+                <th>Rounds</th>
+                <th id="round">0</th>
+            </tr>
+            <tr>
+                <td>Player 1 wins</td>
+                <td id="p1">0</td>
+             </tr>
+             <tr>
+                <td>Player 2 wins</td>
+                <td id="p2">0</td>
+             </tr>
+             <tr>
+                <th>Overall winner</th>
+                <th id="total">N/A</th>
+             </tr>
+        </table>
 
     <script src="script.js"></script>
 </body>

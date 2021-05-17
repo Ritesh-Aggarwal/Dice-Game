@@ -25,3 +25,39 @@
     height: 4em;
     width: 4em;
 }
+
+.btn {
+    margin:auto 25px auto 5px;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    color: white;
+    font-weight: 400;
+    border: 1.7px solid white;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+}
+
+.btn:hover{
+    cursor:pointer;
+    text-decoration: none;
+    border-color: #2d665e;
+    color: #2d665e;
+  }
+
+  table{
+        border: 3px solid #343a40;
+        border-radius: 5px;
+      margin: 20px auto;
+  }
+  table tr td,table tr th{
+      margin: 0;
+      min-width: 65px;
+      border-radius: 2px;
+      color: #343a40;
+      padding: 3px;
+      border: 1px solid #343a40;
+  }
